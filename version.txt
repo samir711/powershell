@@ -1,0 +1,10 @@
+1.Open the command palette (Ctrl + Shift + P) and execute the command: Reload Window  
+
+To update powershell help
+Start-Process powershell -Verb runAs
+update-Help
+
+powershell [-noexit] -executionpolicy bypass -File <Filename>
+
+powershell.exe -noexit "& 'c:\Data\ScheduledScripts\ShutdownVM.ps1'"
+And put this line in a batch-file, and this works
